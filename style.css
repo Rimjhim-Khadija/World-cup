@@ -1,0 +1,129 @@
+
+
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top-box{
+    display: flex;
+    height: 380px;
+    width: 85%;
+    background-color: black;
+    border-radius: 20px;
+}
+.left-side{
+    height: 380px;
+    width: 50%;
+    color: white;
+    font-size: 28px;
+    padding: 40px;
+}
+.left-side p{
+    margin-top: -15px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.left-side button{
+    background-color: red;
+    color: white;
+    height: 40px;
+    width: 30%;
+    border-radius: 5px;
+}
+.right-side{
+    padding-top: 20px;
+    padding-right: 20px;
+}
+.right-side img{
+    height: 360px;
+    width: 100%;
+}
+
+
+.bottom-container{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bottom-box{
+    margin-top: 45px;
+    display: flex;
+    height: 380px;
+    width: 85%;  
+    border-radius: 20px;
+}
+.bottom-left-side{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 190px;
+    width: 35%;
+    background-color: black;
+    border-radius: 10px;
+}
+.bottom-left-side button{
+    height: 42px;
+    width: 80%;
+    padding: 5px;
+    margin-top: 16px;
+    border-radius: 5px;  
+}
+.blog-btn{
+    background-color: red;
+    color: white;
+}
+.bottom-right-side{
+    margin-left: 20px;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   
+}
+.bottom-right-side-blog img{
+    height: 100px;
+    width: 190px;
+    border-radius: 5px;
+}
+.bottom-right-side-blog article{
+    padding: 10px;
+}
+.blog-para{
+    margin-top: 10px;
+    font-size: 12px;
+    
+}
+.bottom-right-side-blog-article{
+    margin-top: -20px;
+    display: flex;
+
+}
+.bottom-right-side-blog-article p{
+    margin-top: 0px;
+    margin-left: 8px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+.footer-side{
+    background-color: black;
+    width: 110%;
+    height: 300px;
+    margin-top: 150px;
+}
+.footer-para{
+    color: white;
+   padding-top: 70px;
+   font-size: 26px;
+   text-align: center;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
