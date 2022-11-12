@@ -3,6 +3,10 @@
 body{
     background-color: white;
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+main{
+    width:100%;
 }
 .container{
     margin-top: 30px;
@@ -13,7 +17,7 @@ body{
 .top-box{
     display: flex;
     height: 380px;
-    width: 85%;
+    width: 81%;
     background-color: black;
     border-radius: 20px;
 }
@@ -60,12 +64,12 @@ body{
     border-radius: 20px;
 }
 .bottom-left-side{
-   
+   margin-left: 24px;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 190px;
-    width: 35%;
+    width: 33%;
     background-color: black;
     border-radius: 10px;
 }
@@ -74,6 +78,7 @@ body{
     width: 80%;
     padding: 5px;
     margin-top: 16px;
+   
     border-radius: 5px;  
 }
 .blog-btn{
@@ -81,14 +86,21 @@ body{
     color: white;
 }
 .bottom-right-side{
+    
     margin-left: 20px;
    display: grid;
    grid-template-columns: repeat(3,1fr);
    
 }
+.bottom-right-side-blog{
+    border: 2px solid rgb(238, 226, 226);
+    border-radius: 5px;
+    width: 90%;
+    height: 90%;
+}
 .bottom-right-side-blog img{
     height: 100px;
-    width: 190px;
+    width: 100%;
     border-radius: 5px;
 }
 .bottom-right-side-blog article{
@@ -113,7 +125,7 @@ body{
 
 .footer-side{
     background-color: black;
-    width: 110%;
+    width: 100%;
     height: 300px;
     margin-top: 150px;
 }
@@ -126,4 +138,14 @@ body{
 hr{
     margin-top: 20px;
     width: 80%;
+    margin-bottom: 30px;
+}
+.navbar a{
+    font-size: 12px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(236, 229, 229);
+}
+.navbar{
+    margin-left: 190px;
 }
